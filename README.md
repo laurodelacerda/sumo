@@ -77,3 +77,11 @@ License
 SUMO is licensed under the [Eclipse Public License Version 2](https://eclipse.org/legal/epl-v20.html).
 For the licenses of the different libraries and supplementary code information is in the
 subdirectories and the [wiki](http://sumo.dlr.de/wiki/License).
+
+
+Derivative Works
+----------------
+
+* **Signs:** A folder containing examples (images) of road signs being classified by sign nature.
+* **Traffic Sign detector:** A SUMO device developed to capture all traffic signs (POI Lanes) added to the network. Its source code is in [/src/microsim/devices](https://github.com/laurodelacerda/sumo/tree/master/src/microsim/devices) with the name "MSDevice_SignDetector" .
+* **Examples**: The folder contains examples of road networks with signs and also traci applications simulating vehicle behaviour upon emergence of road signs.
